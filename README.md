@@ -93,10 +93,6 @@ The app should now be running at `http://localhost:3000/` 🚀
 Feel free to contribute! Fork the repo, make your changes, and submit a pull request.
 
 ---
-## 📜 License
-This project is licensed under the **MIT License**.
-
----
 ## ⭐ Acknowledgments
 - **Graph Theory** for dependency handling
 - **D3.js** for data visualization
