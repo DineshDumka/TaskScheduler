@@ -11,7 +11,7 @@ This application provides an intuitive interface for users to **add, view, updat
 ## 🛠️ Tech Stack
 ### **Frontend:**
 - HTML, CSS, JavaScript (React.js)
-- D3.js (for task visualization)
+- Recharts (for task visualization)
 
 ### **Backend:**
 - Node.js, Express.js
@@ -29,7 +29,7 @@ This application provides an intuitive interface for users to **add, view, updat
 ✅ **Task Management**: Add, update, and delete tasks with priority levels and deadlines.  
 ✅ **Optimized Scheduling**: Uses advanced algorithms to efficiently assign tasks to available resources.  
 🔄 **Dependency Handling**: Ensures correct execution order using Topological Sorting. *(In Progress)*  
-📊 **Real-time Visualization**: Interactive dashboard with D3.js to track schedules. *(Planned)*  
+📊 **Real-time Visualization**: Interactive dashboard with Recharts to track schedules. *(Planned)*  
 🔐 **User Authentication**: Secure login and role-based access for users and administrators. *(Planned)*  
 📈 **Scalable & Efficient**: Designed to handle large datasets and optimize workload distribution.  
 
@@ -50,55 +50,47 @@ Ensure you have the following installed:
    ```bash
    git clone https://github.com/DineshDumka/TaskScheduler.git
    cd TaskScheduler
-   ```
+Install Dependencies:
 
-2. **Install Dependencies:**
-   ```bash
-   npm install
-   ```
+bash
+Copy
+Edit
+npm install
+Set Up Environment Variables: Create a .env file in the root directory and add:
 
-3. **Set Up Environment Variables:**
-   Create a `.env` file in the root directory and add:
-   ```env
-   DATABASE_URL=<your_database_url>
-   PORT=5000
-   ```
+env
+Copy
+Edit
+DATABASE_URL=<your_database_url>
+PORT=5000
+Start the Server:
 
-4. **Start the Server:**
-   ```bash
-   npm start
-   ```
+bash
+Copy
+Edit
+npm start
+Run the Frontend:
 
-5. **Run the Frontend:**
-   ```bash
-   cd client
-   npm start
-   ```
+bash
+Copy
+Edit
+cd client
+npm start
+The app should now be running at http://localhost:3000/ 🚀
 
-The app should now be running at `http://localhost:3000/` 🚀
-
----
-## 📌 API Endpoints (To be finalized)
-| Method | Endpoint | Description |
-|--------|---------|-------------|
-| **GET** | `/tasks` | Fetch all tasks |
-| **POST** | `/tasks` | Add a new task |
-| **PUT** | `/tasks/:id` | Update a task |
-| **DELETE** | `/tasks/:id` | Delete a task |
-
----
-## 🤝 Contributors
-- **Dinesh Dumka** *(Add team members here)*  
-
+📌 API Endpoints (To be finalized)
+Method	Endpoint	Description
+GET	/tasks	Fetch all tasks
+POST	/tasks	Add a new task
+PUT	/tasks/:id	Update a task
+DELETE	/tasks/:id	Delete a task
+🤝 Contributors
+Dinesh Dumka (Add team members here)
 Feel free to contribute! Fork the repo, make your changes, and submit a pull request.
 
----
-## ⭐ Acknowledgments
-- **Graph Theory** for dependency handling
-- **D3.js** for data visualization
-- **MongoDB/PostgreSQL** for efficient data management
-
----
-## 📬 Contact
+⭐ Acknowledgments
+Graph Theory for dependency handling
+Recharts for data visualization
+MongoDB/PostgreSQL for efficient data management
+📬 Contact
 For any questions or feedback, feel free to reach out! 😊
-
